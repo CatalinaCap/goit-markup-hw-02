@@ -1,0 +1,30 @@
+:root {
+  --blue: #2196f3;
+  --white: #ffffff;
+  --gray: #757575;
+  --light-black: #212121;
+  --black: #000000;
+  --primary-font: 'Roboto', Sans-serif;
+  --secondary-font: 'raleway', Sans-serif;
+}
+/*Header section*/
+body {
+  font-family: var(--primary-font);
+  color: #ffffff;
+}
+.logo {
+  color: #2196f3;
+}
+.main-logo {
+  text-decoration-line: none;
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-size: 26;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--light-black);
+}
